@@ -1,0 +1,8 @@
+F:\5th Sem Project\Vadharano\Vadharano\bin\Debug\Vadharano.exe
+F:\5th Sem Project\Vadharano\Vadharano\bin\Debug\Vadharano.pdb
+F:\5th Sem Project\Vadharano\Vadharano\obj\Debug\Vadharano.csprojResolveAssemblyReference.cache
+F:\5th Sem Project\Vadharano\Vadharano\obj\Debug\Vadharano.Form1.resources
+F:\5th Sem Project\Vadharano\Vadharano\obj\Debug\Vadharano.Properties.Resources.resources
+F:\5th Sem Project\Vadharano\Vadharano\obj\Debug\Vadharano.csproj.GenerateResource.Cache
+F:\5th Sem Project\Vadharano\Vadharano\obj\Debug\Vadharano.exe
+F:\5th Sem Project\Vadharano\Vadharano\obj\Debug\Vadharano.pdb

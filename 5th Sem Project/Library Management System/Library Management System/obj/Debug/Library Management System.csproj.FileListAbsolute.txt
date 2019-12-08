@@ -1,0 +1,20 @@
+F:\5th Sem Project\Library Management System\Library Management System\bin\Debug\Library Management System.exe
+F:\5th Sem Project\Library Management System\Library Management System\bin\Debug\Library Management System.pdb
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library Management System.csprojResolveAssemblyReference.cache
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Properties.Resources.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.GenerateResource.Cache
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library Management System.exe
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library Management System.pdb
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Start.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Home.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Login.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Book.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Categories.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Issue_Details.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Manage_Books.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Return_Book.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Manage_Student.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Student_Display.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.Books_Display.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.ReturnBook_Display.resources
+F:\5th Sem Project\Library Management System\Library Management System\obj\Debug\Library_Management_System.AboutUs.resources

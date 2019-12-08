@@ -1,0 +1,8 @@
+F:\5th Sem Project\Test\Extra\Extra\bin\Debug\Extra.exe
+F:\5th Sem Project\Test\Extra\Extra\bin\Debug\Extra.pdb
+F:\5th Sem Project\Test\Extra\Extra\obj\Debug\Extra.csprojResolveAssemblyReference.cache
+F:\5th Sem Project\Test\Extra\Extra\obj\Debug\Extra.Form1.resources
+F:\5th Sem Project\Test\Extra\Extra\obj\Debug\Extra.Properties.Resources.resources
+F:\5th Sem Project\Test\Extra\Extra\obj\Debug\Extra.csproj.GenerateResource.Cache
+F:\5th Sem Project\Test\Extra\Extra\obj\Debug\Extra.exe
+F:\5th Sem Project\Test\Extra\Extra\obj\Debug\Extra.pdb

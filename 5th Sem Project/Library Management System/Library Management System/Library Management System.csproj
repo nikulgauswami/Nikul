@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44BF0173-F5AE-4E64-BF42-6075FD5A669C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Library_Management_System</RootNamespace>
+    <AssemblyName>Library Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book Details.Designer.cs">
+      <DependentUpon>Book Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Books_Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Books_Display.Designer.cs">
+      <DependentUpon>Books_Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories.Designer.cs">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Issue Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Issue Books.Designer.cs">
+      <DependentUpon>Issue Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Student.Designer.cs">
+      <DependentUpon>Manage_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Return Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Return Books.Designer.cs">
+      <DependentUpon>Return Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage Books.Designer.cs">
+      <DependentUpon>Manage Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturnBook_Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnBook_Display.Designer.cs">
+      <DependentUpon>ReturnBook_Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Display.Designer.cs">
+      <DependentUpon>Student_Display.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book Details.resx">
+      <DependentUpon>Book Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Books_Display.resx">
+      <DependentUpon>Books_Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories.resx">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Issue Books.resx">
+      <DependentUpon>Issue Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Student.resx">
+      <DependentUpon>Manage_Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Return Books.resx">
+      <DependentUpon>Return Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage Books.resx">
+      <DependentUpon>Manage Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReturnBook_Display.resx">
+      <DependentUpon>ReturnBook_Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Display.resx">
+      <DependentUpon>Student_Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lib-banner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67a437b0f5c973bd55cb8b491f4c1706.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_button_png_812518.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library_management_system_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aveb8d3f1fac7a77e24f0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books-icon-png-17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36178.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\361781.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBSCO_CollectionDevelopment_600px-300x300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\martin-adams-1062002-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lis001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Library-Management-Software-Market.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock_000000063151_Small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31581d899e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Issue_Reopened-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return-book-3-600622.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31581d899e1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Issue_Reopened-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return-book-3-6006221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de691f7b9e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de691f7b9e1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_186549874_bgt4Ph5WlHRsTHesG7TZHnXF0VKoYl6z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_222718049_qGa7NCiAaLhckeTuzlHvJSn61MHswgDd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_107586957_wWftRhhp4DlArTIIyZtYXJPLM4Nq8GRu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_222605468_PedFmiVKQl35PSfIDrQ1IlH5MAWOAAiP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31581d899e2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office_stuff_book_remind_dairy_work_manage_10-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office_stuff_book_remind_dairy_work_manage_10-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BeautyPlus_20180514142529_save.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Manage_Books.js" />
+    <None Include="Resources\right2-512.png" />
+    <None Include="Resources\19-512.png" />
+    <None Include="Resources\mail-1116-796484.png" />
+    <None Include="Resources\man_19-512.png" />
+    <None Include="Resources\6-512.png" />
+    <None Include="Resources\about_us_423829.png" />
+    <None Include="Resources\kisspng-computer-icons-student-icon-design-college-vector-students-5ada8750ea74e8.2522987515242709289603.jpg" />
+    <None Include="Resources\tourist-information-symbol-iso-sign-is-1293.png" />
+    <None Include="Resources\4i9po4pRT.png" />
+    <None Include="Resources\66488-icons-symbol-computer-email-gmail-free-transparent-image-hq.png" />
+    <None Include="Resources\download2.png" />
+    <None Include="Resources\phone.png" />
+    <None Include="Resources\user-male.png" />
+    <None Include="Resources\IMG_20190922_171726.jpeg" />
+    <None Include="Resources\PhotoPictureResizer_190823_203719832_crop_1701x2304.jpg" />
+    <None Include="Resources\nikul.jpg" />
+    <None Include="Resources\IMG_0262.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
